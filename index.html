@@ -4,43 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <link rel="short cut icon" href="assets/Logo_Mighty_ducks-01.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Mighty Ducks Hockey League</title>
 </head>
 <body>
-    <header>
-        <h1>Mighty Ducks Hockey League</h1>
-        <picture>
-          <img src="./assets/Logo_Mighty_ducks-01.png" alt="Logo de Mighty Ducks">
-        </picture>
-    </header>
-  <nav>
-    <div>
-        <a href="#">Home</a> 
-        |
-        <a href="./aboutmdhl.html">About MDHL </a>
-        |
-        <a href="./contact.html">Contact</a>
+  <header>
+    <div class="container-flex">
+    <h1 class="titulo">Mighty Ducks Hockey League</h1>
+    <picture>
+      <img src="./assets/Logo_Mighty_ducks-01.png" alt="Logo de Mighty Ducks" class="logo">
+    </picture>
     </div>
-  </nav>
-<br>
-    <main>
-      <section>
-        <h3>Upcoming Events</h3>
+    <nav class="linksbox">
+        <a href="#" class="links1">Home</a>
+        <a href="./aboutMDHL.html" class="links1">About</a>
+        <a href="./contact.html" class="links1">Contact</a>
+        <a href="./rules.html" class="links1">Rules</a>
+        <a href="./game_info.html" class="links1">Schedule</a>
+      </nav>
+      <nav class="box1">
           <picture>
-            <img src="./assets/hockey_1.jpg" alt="Equipo Mighty Ducks">
+            <img src="./assets/hockey_1.jpg" alt="Jugadores Mighty Ducks" class="sacar2">
           </picture>
-        <article>
+        </nav>
+</header>
+    <main class="box2">
+      <section>
+        <h3 class="eventos">Upcomins Events</h3>
+          <div class="agenda">
+        <article class="texto">
         <h4>August 4</h4>
-        <p>MDSL Fundraiser</p>
+        <p >MDSL Fundraiser</p>
         </article>
-        <article>
+        <article class="texto">
         <h4>August 16</h4>
-      <p>Season Kick-off: Meet the Teams</p>
+        <p class="texto">Season Kick-off: Meet the Teams</p>
         </article>
-        <article>
+        <article class="texto">
         <h4>September 1</h4>
-      <p>First Game of the Season (Check Game Schedule for details)</p>
+        <p class="texto">First Game of the Season (Check Game Schedule for details)</p>
         </article>
+      </div>
+      <picture>
+        <img src="./assets/hockey_1.jpg" alt="Jugadores Mighty Ducks" class="sacar">
+      </picture>
       </section>
     </main>
   </body>

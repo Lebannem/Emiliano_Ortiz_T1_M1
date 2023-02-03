@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+
+.box1 {
+    width: 100%;
+    height: 400px;
+    border: solid black;
+    background-image: url(./assets/design1_image2.jpg);
+    margin-top: px;
+    background-position-x: 70%;
+    background-position-y: 30%;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+
+.linksbox {
+    display: flex;
+    flex-direction: column;
+    order: 3;
+    position: fixed;
+    align-content: end;
+    border: 1px solid black;
+    position: fixed;
+    margin-top: 100px;
+}
+
+.logo {
+    width: 20%;
+    position: fixed;
+    margin-left: 350px;
+
+}
+
+.titulo {
+    position: absolute;
+    color: #d81616;
+    font-size: 50px;
+    text-decoration: underline;
+}
+.links1 {
+    color: #ffffff;
+    background-color: #2475b8;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    border: solid black;
+    font-size: 23px;
+    text-align: center;
+    /* transform: scale(1.5); */
+}
+
+a[href="#"] {
+    background-color:#10b310;
+    text-align: right;
+}
+
+.texto {
+    margin-bottom: 25px;
+    background-color: none;
+
+}
+
+.eventos {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    height: 40px;
+    font-size: 30px;
+}
+
+.barracostado, .agenda{
+    display: block;
+    text-align: left;
+}
+
+.agenda {
+    text-align: left;
+    font-size: 23px;
+    margin-left: 250px;
+    line-height: 48px;
+}
+
+.agenda2 {
+    text-align: left;
+    font-size: 18px;
+    margin-left: 250px;
+    line-height: 35px;
+    margin-right: 350px;
+}
+.sacar {
+    width: 55%;
+    margin-left: 250px;
+}
+
+li {
+    margin-left: 20px;
+    display: list-item;
+    list-style-position: inside;
+}
+
+.roman {
+    list-style-type: lower-latin;
+}
+
+.nomostrar {
+    list-style-type: none;
+}
+
+.abierto {
+    list-style-type: circle;
+    margin-left: 50px;
+}
+
+table {
+    background-image: url(./assets/Logo_Mighty_ducks-02.png);
+    background-position-x: 45%;
+    background-position-y: 50%;
+    background-repeat:no-repeat;
+    height: 50vh;
+    width: 45rem;
+    margin-left: 50px;
+    text-align: center;
+    color: #d81616;
+}
+
+table, th, td {
+    /* border: 5px solid; */
+}
+.sub {
+    text-decoration: underline;
+}
+
+.barracostado, .linksbox2 {
+    display: none;
+}
+
+.footers {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ol {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.sacar2 {
+    display: none;
+}

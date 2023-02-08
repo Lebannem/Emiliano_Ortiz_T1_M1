@@ -41,7 +41,7 @@
 
 .titulo {
     position: absolute;
-    color: #d81616;
+    color: #000000;
     font-size: 50px;
     text-decoration: underline;
 }
@@ -69,7 +69,7 @@ a[href="#"] {
 
 .eventos {
     background-color: #000000;
-    color: #ffffff;
+    color: #a00505;
     text-align: center;
     height: 40px;
     font-size: 30px;
@@ -167,4 +167,9 @@ ol {
 
 .sacar2 {
     display: none;
+}
+
+.boton {
+    width: 250px;
+    
 }

@@ -45,6 +45,7 @@
     font-size: 50px;
     text-decoration: underline;
 }
+
 .links1 {
     color: #ffffff;
     background-color: #2475b8;
@@ -87,7 +88,7 @@ a[href="#"] {
     line-height: 48px;
 }
 
-.agenda2 {
+.agenda2, .maps {
     text-align: left;
     font-size: 18px;
     margin-left: 250px;
@@ -130,9 +131,10 @@ table {
     color: #d81616;
 }
 
-table, th, td {
-    /* border: 5px solid; */
-}
+/* table, th, td {
+    border: 5px solid;
+} */
+
 .sub {
     text-decoration: underline;
 }
@@ -171,5 +173,67 @@ ol {
 
 .boton {
     width: 250px;
-    
+    /* alinear esto y los mapas ponerlos en cuadrado y hacer responsibe */
+}
+
+.maps {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.map>iframe {
+    width: 350px;
+    height: 350px;
+}
+
+form {
+    background-image: url(./assets/Logo_Mighty_ducks-02.png);
+    background-repeat: repeat-y;
+    background-position-x: 45%;
+    background-position-y: 90%;
+}
+/* background-image: url(./assets/Logo_Mighty_ducks-02.png);
+    background-position-x: 45%;
+    background-position-y: 50%;
+    background-repeat:no-repeat;
+    height: 50vh;
+    width: 45rem;
+    margin-left: 50px;
+    text-align: center;
+    color: #d81616; */
+
+@media screen and (max-width:768px) {
+    header {
+        width: 100%;
+    }
+    nav {
+        width: 20%;
+    }
+    .titulo {
+        font-size: 45px;
+    }
+    .logo {
+        margin-left: 150px;
+        margin-top: 80px;
+        position: absolute;
+    }
+    .box1 {
+        width: 100%;
+    }
+    p {
+        font-size: 70%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 70%;
+    }
+    .agenda, .agenda2 {
+        width: 50%;
+    }
+    input {
+        display: block;
+    }
+    body {
+        width: 100%;
+    }
 }

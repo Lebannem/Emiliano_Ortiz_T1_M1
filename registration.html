@@ -46,7 +46,7 @@
                         <label for="city">City:</label>
                         <input type="text" id="city" name="city">
                         <label for="zipcode">Zip Code:</label>
-                        <input type="text" iz="zipcode" name="zipcode">
+                        <input type="text" id="zipcode" name="zipcode">
                         <label for="birth">Birth Date:</label>
                         <input type="date" id="birth" name="birth">
                     </fieldset>
@@ -75,20 +75,20 @@
                         <fieldset>
                             <legend> which elementary school do you live near?</legend>
                                 <h5>Closest School:</h5>
-                                <select name="school" id="">
-                                <option value="ajkatzenmaier" name="school">AJ Katzemaier</option>
-                                <option value="greenbay"name="school">Greenbay</option>
-                                <option value="howardayeager"name="school">Howard A Yeager</option>
-                                <option value="marjoriephart"name="school">Marjorie P Hart</option>
-                                <option value="northelementary"name="school">North Elementary</option>
-                                <option value="southelementary"name="school">South Elementary</option>
+                                <select name="school" id="school">
+                                <option value="ajkatzenmaier" name="school" id="school">AJ Katzemaier</option>
+                                <option value="greenbay" name="school">Greenbay</option>
+                                <option value="howardayeager" name="school">Howard A Yeager</option>
+                                <option value="marjoriephart" name="school">Marjorie P Hart</option>
+                                <option value="northelementary" name="school">North Elementary</option>
+                                <option value="southelementary" name="school">South Elementary</option>
                             </select>
                         </fieldset>
                         <fieldset>
                             <legend> What position(s) do you normally play? (check all that apply)</legend>
                             <label for="forward">Forward</label>
                             <input type="checkbox" id="forward" name="position" value="forward">
-                            <label for="Defense">Defense</label>
+                            <label for="defense">Defense</label>
                             <input type="checkbox" id="defense" name="position" value="defense">
                             <label for="midfield">Midfield</label>
                             <input type="checkbox" id="midfield" name="position" value="midfield">
@@ -127,9 +127,9 @@
                             acknowledge that i have read the cancellation policy and agree to its terms.
                         </p>
                         <h5>Parent/Guardian Signature</h5>
-                        <textarea name="signature" id="signature" name="signature" cols="50" rows="5"></textarea>
+                        <textarea name="signature" id="signature" cols="50" rows="5"></textarea>
                         <label for="date">Date:</label>
-                        <input type="date" id="date" name="date" placeholder="">
+                        <input type="date" id="date" name="date">
                     </fieldset>
                     <input type="submit" value="Send" class="boton">
                 </form>
